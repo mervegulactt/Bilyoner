@@ -47,6 +47,7 @@
 		02AB21CA26E1712A0099081C = {
 			isa = PBXGroup;
 			children = (
+				02AB21F326E174810099081C /* Bilyoner */,
 				02AB21CF26E1712A0099081C /* Shared */,
 				02AB21D926E1712F0099081C /* iOS */,
 				02AB21E026E1712F0099081C /* macOS */,
@@ -88,6 +89,93 @@
 				02AB21E226E1712F0099081C /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		02AB21F126E174290099081C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				02AB21FD26E175270099081C /* Components */,
+				02AB21FC26E1751C0099081C /* Scene */,
+				02AB21FB26E175110099081C /* Storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		02AB21F226E174310099081C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				02AB21FA26E175010099081C /* Api */,
+				02AB21F926E174F90099081C /* Model */,
+				02AB21F826E174E60099081C /* Repositories */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		02AB21F326E174810099081C /* Bilyoner */ = {
+			isa = PBXGroup;
+			children = (
+				02AB21F126E174290099081C /* App */,
+				02AB21F226E174310099081C /* Network */,
+				02AB21F426E174AB0099081C /* Utilities */,
+			);
+			path = Bilyoner;
+			sourceTree = "<group>";
+		};
+		02AB21F426E174AB0099081C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				02AB21F526E174C30099081C /* Enum */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		02AB21F526E174C30099081C /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		02AB21F826E174E60099081C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		02AB21F926E174F90099081C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02AB21FA26E175010099081C /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		02AB21FB26E175110099081C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		02AB21FC26E1751C0099081C /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		02AB21FD26E175270099081C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
