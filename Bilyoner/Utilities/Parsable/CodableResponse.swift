@@ -11,4 +11,3 @@ public protocol CodableModel: Decodable { }
 
 public protocol CodableResponse: Decodable, Parsable { }
 
-public struct CoreResponse: CodableResponse { }

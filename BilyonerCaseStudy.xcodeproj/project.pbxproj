@@ -27,6 +27,7 @@
 		0255227826E538AC00F3564D /* BilyonerApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255227726E538AC00F3564D /* BilyonerApi.swift */; };
 		0255227A26E5396900F3564D /* BilyonerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255227926E5396900F3564D /* BilyonerResponse.swift */; };
 		0255227D26E53C9300F3564D /* CodableResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255227C26E53C9300F3564D /* CodableResponse.swift */; };
+		0255228026E542C700F3564D /* Parsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0255227F26E542C700F3564D /* Parsable.swift */; };
 		02AB21E326E1712F0099081C /* BilyonerCaseStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB21D026E1712A0099081C /* BilyonerCaseStudyApp.swift */; };
 		02AB21E426E1712F0099081C /* BilyonerCaseStudyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB21D026E1712A0099081C /* BilyonerCaseStudyApp.swift */; };
 		02AB21E526E1712F0099081C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB21D126E1712A0099081C /* ContentView.swift */; };
@@ -64,6 +65,7 @@
 		0255227726E538AC00F3564D /* BilyonerApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilyonerApi.swift; sourceTree = "<group>"; };
 		0255227926E5396900F3564D /* BilyonerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilyonerResponse.swift; sourceTree = "<group>"; };
 		0255227C26E53C9300F3564D /* CodableResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableResponse.swift; sourceTree = "<group>"; };
+		0255227F26E542C700F3564D /* Parsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsable.swift; sourceTree = "<group>"; };
 		02AB21D026E1712A0099081C /* BilyonerCaseStudyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilyonerCaseStudyApp.swift; sourceTree = "<group>"; };
 		02AB21D126E1712A0099081C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02AB21D226E1712F0099081C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				0255227C26E53C9300F3564D /* CodableResponse.swift */,
+				0255227F26E542C700F3564D /* Parsable.swift */,
 			);
 			path = Parsable;
 			sourceTree = "<group>";
@@ -456,6 +459,7 @@
 				0255226D26E3E12300F3564D /* FontExtensions.swift in Sources */,
 				0255227A26E5396900F3564D /* BilyonerResponse.swift in Sources */,
 				0255225126E393E500F3564D /* MainViewController.swift in Sources */,
+				0255228026E542C700F3564D /* Parsable.swift in Sources */,
 				02AB21FF26E176680099081C /* Storyboard.swift in Sources */,
 				0255225E26E3C21100F3564D /* ImageResource.swift in Sources */,
 				0255227226E530E100F3564D /* Appliable.swift in Sources */,

@@ -9,7 +9,8 @@ import UIKit
 
 // MARK: - Welcome
 
-struct Welcome: CodableResponse {
+struct MeditationResponse: CodableResponse {
+    static func parse(_ data: Data) throws -> MeditationResponse? { return nil }
 
     var meditations: [Meditation]?
     var stories: [Story]?
