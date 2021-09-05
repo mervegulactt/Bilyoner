@@ -1,14 +1,13 @@
 //
-//  BaseViewController.swift
+//  BaseVıew.swift
 //  BilyonerCaseStudy (iOS)
 //
-//  Created by Merve on 5.09.2021.
+//  Created by Merve on 4.09.2021.
 //
 
 import UIKit
 
-/// Base `NibLoadable` collection view cell
-open class BaseCollectionViewCell: UICollectionViewCell, Appliable, Reusable {
+open class BaseView: UIView, Appliable {
 
     open override func awakeFromNib() {
 
