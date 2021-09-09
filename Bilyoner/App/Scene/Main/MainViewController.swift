@@ -17,6 +17,8 @@ protocol MainDisplayLogic: AnyObject {
 
 class MainViewController: MainDisplayLogic {
 
+    @IBOutlet weak var collectionView: UICollectionView!
+
     static var vxStoryboard: Storyboard = .main
 
     // MARK: VIP Protocols

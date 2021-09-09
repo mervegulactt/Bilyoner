@@ -36,12 +36,12 @@
 		02AB21E826E1712F0099081C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02AB21D226E1712F0099081C /* Assets.xcassets */; };
 		02AB21FF26E176680099081C /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB21FE26E176680099081C /* Storyboard.swift */; };
 		02AB220126E177AF0099081C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AB220026E177AF0099081C /* Main.storyboard */; };
-		02AB221226E179F60099081C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02AB221126E179F60099081C /* LaunchScreen.storyboard */; };
 		02AB221526E17F990099081C /* StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB221426E17F990099081C /* StoryboardLoadable.swift */; };
-		02AB223426E182D60099081C /* MeditationCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB223226E182D60099081C /* MeditationCollectionCell.swift */; };
-		02AB223526E182D60099081C /* MeditationCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02AB223326E182D60099081C /* MeditationCollectionCell.xib */; };
-		02AB223826E182F90099081C /* MeditationItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AB223626E182F90099081C /* MeditationItemCollectionViewCell.swift */; };
-		02AB223926E182F90099081C /* MeditationItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02AB223726E182F90099081C /* MeditationItemCollectionViewCell.xib */; };
+		02BEDE2F26E9FCBF000CEB8C /* MeditationItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BEDE2D26E9FCBF000CEB8C /* MeditationItemCollectionViewCell.swift */; };
+		02BEDE3026E9FCBF000CEB8C /* MeditationItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BEDE2E26E9FCBF000CEB8C /* MeditationItemCollectionViewCell.xib */; };
+		02BEDE3226EA04D7000CEB8C /* MeditationCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BEDE3126EA04D7000CEB8C /* MeditationCollectionView.swift */; };
+		02BEDE3426EA1D83000CEB8C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BEDE3326EA1D83000CEB8C /* Media.xcassets */; };
+		02BEDE3B26EA25D9000CEB8C /* MeditationCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02BEDE3926EA25D9000CEB8C /* MeditationCollectionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,12 +76,12 @@
 		02AB21E226E1712F0099081C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		02AB21FE26E176680099081C /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		02AB220026E177AF0099081C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		02AB221126E179F60099081C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02AB221426E17F990099081C /* StoryboardLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
-		02AB223226E182D60099081C /* MeditationCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCollectionCell.swift; sourceTree = "<group>"; };
-		02AB223326E182D60099081C /* MeditationCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeditationCollectionCell.xib; sourceTree = "<group>"; };
-		02AB223626E182F90099081C /* MeditationItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationItemCollectionViewCell.swift; sourceTree = "<group>"; };
-		02AB223726E182F90099081C /* MeditationItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeditationItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		02BEDE2D26E9FCBF000CEB8C /* MeditationItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		02BEDE2E26E9FCBF000CEB8C /* MeditationItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeditationItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		02BEDE3126EA04D7000CEB8C /* MeditationCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationCollectionView.swift; sourceTree = "<group>"; };
+		02BEDE3326EA1D83000CEB8C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		02BEDE3926EA25D9000CEB8C /* MeditationCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeditationCollectionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +259,7 @@
 				0255225926E3C16300F3564D /* Presentation */,
 				02AB221326E17F6A0099081C /* Protocol */,
 				02AB21F526E174C30099081C /* Enum */,
+				02BEDE3326EA1D83000CEB8C /* Media.xcassets */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -298,7 +299,6 @@
 			isa = PBXGroup;
 			children = (
 				02AB220026E177AF0099081C /* Main.storyboard */,
-				02AB221126E179F60099081C /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -345,10 +345,10 @@
 		02AB223126E1827B0099081C /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				02AB223226E182D60099081C /* MeditationCollectionCell.swift */,
-				02AB223326E182D60099081C /* MeditationCollectionCell.xib */,
-				02AB223626E182F90099081C /* MeditationItemCollectionViewCell.swift */,
-				02AB223726E182F90099081C /* MeditationItemCollectionViewCell.xib */,
+				02BEDE3126EA04D7000CEB8C /* MeditationCollectionView.swift */,
+				02BEDE2D26E9FCBF000CEB8C /* MeditationItemCollectionViewCell.swift */,
+				02BEDE2E26E9FCBF000CEB8C /* MeditationItemCollectionViewCell.xib */,
+				02BEDE3926EA25D9000CEB8C /* MeditationCollectionViewController.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -431,11 +431,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02AB221226E179F60099081C /* LaunchScreen.storyboard in Resources */,
-				02AB223926E182F90099081C /* MeditationItemCollectionViewCell.xib in Resources */,
+				02BEDE3026E9FCBF000CEB8C /* MeditationItemCollectionViewCell.xib in Resources */,
+				02BEDE3B26EA25D9000CEB8C /* MeditationCollectionViewController.xib in Resources */,
 				02AB21E726E1712F0099081C /* Assets.xcassets in Resources */,
+				02BEDE3426EA1D83000CEB8C /* Media.xcassets in Resources */,
 				02AB220126E177AF0099081C /* Main.storyboard in Resources */,
-				02AB223526E182D60099081C /* MeditationCollectionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BEDE2F26E9FCBF000CEB8C /* MeditationItemCollectionViewCell.swift in Sources */,
 				02AB21E526E1712F0099081C /* ContentView.swift in Sources */,
 				0255225B26E3C17400F3564D /* Presentation.swift in Sources */,
 				0255226D26E3E12300F3564D /* FontExtensions.swift in Sources */,
@@ -467,14 +468,13 @@
 				0255224E26E393E500F3564D /* MainWorker.swift in Sources */,
 				0255226126E3DD2100F3564D /* BaseVıew.swift in Sources */,
 				0255227D26E53C9300F3564D /* CodableResponse.swift in Sources */,
+				02BEDE3226EA04D7000CEB8C /* MeditationCollectionView.swift in Sources */,
 				0255227826E538AC00F3564D /* BilyonerApi.swift in Sources */,
 				0255225326E393E500F3564D /* MainConfigurator.swift in Sources */,
 				0255226626E3DEEB00F3564D /* Stylable.swift in Sources */,
-				02AB223426E182D60099081C /* MeditationCollectionCell.swift in Sources */,
 				0255227426E5313C00F3564D /* BaseViewController.swift in Sources */,
 				0255227626E531F100F3564D /* Reusable.swift in Sources */,
 				02AB221526E17F990099081C /* StoryboardLoadable.swift in Sources */,
-				02AB223826E182F90099081C /* MeditationItemCollectionViewCell.swift in Sources */,
 				0255226A26E3E05300F3564D /* Styles.swift in Sources */,
 				0255226426E3DE8400F3564D /* Stylable+Implementations.swift in Sources */,
 				0255224D26E393E500F3564D /* MainPresenter.swift in Sources */,
